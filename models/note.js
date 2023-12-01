@@ -32,3 +32,7 @@ noteSchema.set("toJSON", {
 })
 
 module.exports = mongoose.model("Note", noteSchema)
+
+const animals = (props) => {
+  return props.toString()
+}
